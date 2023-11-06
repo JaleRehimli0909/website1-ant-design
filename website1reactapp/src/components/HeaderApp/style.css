@@ -4,12 +4,28 @@
   margin: 0 auto;
   /* background-color: red; */
 }
+
 .topBar {
-  /* display: flex; */
-  /* justify-content: space-around; */
-  /* align-items: center; */
-  /* background-color: red; */
+  position: relative;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
 }
+.topBar:before {
+  content: "";
+  background: #0c0c0c;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -999px;
+  right: -999px;
+}
+.topBar > * {
+  position: relative;
+}
+
 .topBar ul {
   list-style: none;
   display: flex;
@@ -17,6 +33,7 @@
 
 .topBar-left ul li {
   margin-right: 20px;
+  list-style: none;
 }
 .topBar-left ul li span {
   margin-left: 10px;
@@ -38,17 +55,66 @@
 .topBar-right ul li a {
   color: white;
   font-size: 20px;
+  transition: color 0.3s linear;
 }
 .topBar-right ul li a:hover {
   color: #f14705;
 }
 .top-right-button {
   border: none;
-  height: 90%;
+  height: 50px;
   background-color: #f14705;
   color: white;
+  transition: opacity 0.3s linear;
 }
 .top-right-button:hover {
-  background-color: rgb(148, 49, 10);
+  opacity: 0.8;
   color: white;
+}
+/* headerApp */
+
+.ant-layout-header {
+  background: none;
+  padding: 0;
+  height: auto;
+  line-height: 1.6;
+}
+
+.headerApp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+.header-list nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+.header-list ul li {
+  margin: 0 0 0 20px;
+}
+.header-list ul li a {
+  color: black;
+}
+.header-logo {
+  color: 00D9;
+  font-size: 22px;
+}
+
+.separator {
+  position: relative;
+}
+
+.separator:after {
+  content: "";
+  border-bottom: 1px solid #ddd;
+  position: absolute;
+  bottom: 0;
+  left: -999px;
+  right: -999px;
 }
