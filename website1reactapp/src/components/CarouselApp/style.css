@@ -1,0 +1,48 @@
+.carouselApp {
+  padding: 40px 0;
+  position: relative;
+}
+.carouselAppRight {
+  margin: 0 0 24px 0;
+}
+
+.carouselAppRight-holder {
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 15px;
+  margin: 0px 0px 25px;
+  min-width: 280px;
+  min-height: 118px;
+}
+.carouselAppRight .carouselAppRight-holder:last-child {
+  margin: 0;
+}
+.holderIcon {
+  font-size: 40px;
+  color: #27c4ff;
+  margin: 0 20px 0 0;
+}
+.holderContent {
+}
+.holderContent h3 {
+  line-height: 1.4;
+  margin: 0 0 9px 0;
+}
+.holderContent p {
+  margin: 0;
+}
+.carouselApp::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #ddd;
+  bottom: 0;
+  left: -999px;
+  right: -999px;
+}
+
+/* .ant-carousel .slick-slide img {
+    width: 100%;
+  } */
