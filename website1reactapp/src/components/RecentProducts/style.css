@@ -10,16 +10,15 @@
 
 .price {
   margin: 20px 0;
+  font-size: 20px;
+
 }
 .productsImg {
   text-align: center;
   background-color: transparent;
 }
 
-.price {
-  margin: 0 0 20px;
-  font-size: 20px;
-}
+
 .productsTitle {
   height: 80px;
   overflow: hidden;
