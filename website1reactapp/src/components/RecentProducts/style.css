@@ -1,0 +1,26 @@
+.recentProducts {
+  padding: 40px 0;
+}
+.recentProducts h2 {
+  font-size: 22px;
+  color: rgb(0, 0, 0, 0.85);
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.price {
+  margin: 20px 0;
+}
+.productsImg {
+  text-align: center;
+  background-color: transparent;
+}
+
+.price {
+  margin: 0 0 20px;
+  font-size: 20px;
+}
+.productsTitle {
+  height: 80px;
+  overflow: hidden;
+}
