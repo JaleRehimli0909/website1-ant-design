@@ -3,6 +3,7 @@ import "./style.css";
 import CarouselApp from '../../components/CarouselApp';
 import RecentProducts from "../../components/RecentProducts";
 import Information from "../../components/Information";
+import ProductCategories from "../../components/ProductCategories";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <CarouselApp/>
       <RecentProducts/>
       <Information/>
+      <ProductCategories/>
   
     </div>
 

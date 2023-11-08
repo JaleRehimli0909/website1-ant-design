@@ -1,0 +1,26 @@
+.ProductCategories {
+  padding: 40px 0;
+}
+.productCategories-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ProductCategories h2 {
+  font-size: 22px;
+  color: rgb(0, 0, 0, 0.85);
+  font-weight: 500;
+
+  margin: 0 0 40px;
+}
+.ProductCategories img {
+  border-radius: 50%;
+  border: 3px solid #27c4ff;
+}
+.ProductCategories h3 {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
