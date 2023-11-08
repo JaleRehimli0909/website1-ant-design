@@ -42,7 +42,7 @@ const RecentProducts = () => {
               <Card
                 hoverable
                 style={{
-                  width: 300,
+                  width: 275,
                 }}
                 cover={
                   <img

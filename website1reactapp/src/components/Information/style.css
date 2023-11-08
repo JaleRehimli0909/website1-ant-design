@@ -1,0 +1,19 @@
+.InformationApp {
+  padding: 40px 0;
+}
+.ant-card .ant-card-meta-detail {
+  margin: auto 0;
+}
+.ant-card .ant-card-meta-title {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+.cart1 .ant-card-meta-description {
+  font-size: 50px;
+  color: #f14705;
+  font-weight: 700;
+}
+.cart2 .ant-card-meta-description {
+  font-size: 16px;
+  color: #f14705;
+}
