@@ -1,0 +1,36 @@
+.FooterAppTop {
+  background-color: #212121;
+  padding: 40px 0;
+}
+.FooterAppTop h2 {
+  font-weight: 100;
+  margin-bottom: 25px;
+}
+.footerAppTop-img {
+  width: 70px;
+  height: 70px;
+}
+.ant-list .ant-list-item .ant-list-item-meta .ant-list-item-meta-title > a {
+  font-size: 14px;
+  color: #d7d7d7;
+  font-weight: 200;
+}
+.ant-list .ant-list-item .ant-list-item-meta .ant-list-item-meta-description {
+  color: #f14705;
+}
+
+.ant-tag {
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  background: #fafafa;
+}
+.anticon svg {
+  color: #fff;
+}
+.tags {
+  margin-top: 30px;
+}
+.ant-list-split .ant-list-item {
+  color: #fff;
+  position: relative;
+}

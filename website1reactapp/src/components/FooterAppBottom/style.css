@@ -1,0 +1,20 @@
+.FooterAppBottom {
+  background-color: #000;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.FooterAppBottom-Items-right {
+  text-align: end;
+}
+
+.ant-float-btn-default .ant-float-btn-body {
+  background-color: #000;
+}
+.ant-float-btn-default {
+  margin-right: 80px;
+  margin-bottom: 10px;
+}
+.anticon svg {
+  color: #fff;
+}

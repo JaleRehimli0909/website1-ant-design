@@ -8,6 +8,7 @@ import AboutApp from "./pages/AboutApp";
 import ShopApp from "./pages/ShopApp";
 import FaqApp from "./pages/FaqApp";
 import ContactApp from "./pages/ContactApp";
+import FooterApp from "./components/FooterApp";
 const { Header, Footer, Content } = Layout;
 
 function App() {
@@ -26,7 +27,9 @@ function App() {
             <Route path="/contact" element={<ContactApp />} />
           </Routes>
         </Content>
-        <Footer>Footer</Footer>
+        <Footer>
+          <FooterApp/>
+        </Footer>
       </BrowserRouter>
     </Layout>
   );
