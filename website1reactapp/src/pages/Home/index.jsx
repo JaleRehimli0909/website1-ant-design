@@ -5,6 +5,7 @@ import RecentProducts from "../../components/RecentProducts";
 import Information from "../../components/Information";
 import ProductCategories from "../../components/ProductCategories";
 import SaleProducts from "../../components/SaleProducts";
+import TopBrands from "../../components/TopBrands";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Information/>
       <ProductCategories/>
       <SaleProducts/>
+      <TopBrands/>
   
     </div>
 

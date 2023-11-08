@@ -1,0 +1,23 @@
+.TopBrands {
+  padding: 40px 0;
+  position: relative;
+}
+.TopBrands img {
+  width: 270px;
+}
+
+.TopBrands::before {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #ddd;
+  top: 0;
+  color: #ddd;
+  left: -999px;
+  right: -999px;
+}
+.TopBrands h2 {
+  font-size: 22px;
+  color: rgb(0, 0, 0, 0.85);
+  font-weight: 500;
+  margin: 0 0 40px;
+}

@@ -1,5 +1,14 @@
 .ProductCategories {
   padding: 40px 0;
+  position: relative;
+}
+.ProductCategories::before {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #ddd;
+  top: 0;
+  left: -999px;
+  right: -999px;
 }
 .productCategories-container {
   display: flex;

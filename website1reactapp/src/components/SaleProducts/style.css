@@ -1,5 +1,14 @@
 .SaleProducts {
   padding: 40px 0;
+  position: relative;
+}
+.SaleProducts::before {
+  content: "";
+  border-bottom: 1px solid #ddd;
+  position: absolute;
+  left: -999px;
+  right: -999px;
+  top: 0;
 }
 .SaleProducts h2 {
   font-size: 22px;
