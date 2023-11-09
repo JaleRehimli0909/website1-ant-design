@@ -1,0 +1,11 @@
+.ShopApp{
+    padding: 40px 0;
+}
+.ShopApp h2{
+    font-weight: 500;
+}
+.ShopApp .ShopAppTitle-Holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

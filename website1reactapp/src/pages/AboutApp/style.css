@@ -1,0 +1,12 @@
+.AboutApp{
+    padding: 40px 0;
+}
+.AboutApp h2{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.bannerImg img{
+    width: 100%;
+    margin-bottom: 20px;
+}

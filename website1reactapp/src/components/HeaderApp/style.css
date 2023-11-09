@@ -104,6 +104,10 @@
 .header-list ul li a {
   color: black;
 }
+.header-list ul li a:hover {
+  color: #1677ff;
+}
+
 .header-logo {
   color: 00D9;
   font-size: 22px;
