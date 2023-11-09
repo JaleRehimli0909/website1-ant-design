@@ -16,3 +16,30 @@ h5,
 h6 {
   font-family: "Merriweather", serif;
 }
+@media only screen and (max-width: 991px) {
+  .topBar .topBar-left ul li a span:last-child {
+    display: none;
+  }
+
+  .topBar .topBar-left li {
+    margin: 0 10px 0 0;
+  }
+  .carouselApp {
+    padding: 20px 0;
+  }
+  
+  .carouselApp .carouselAppRight-holder {
+    margin-bottom: 15px;
+  }
+  
+  .InformationApp .holder {
+    padding: 30px;
+    height: 140px;
+    background-image: none !important;
+  }
+  
+  .ant-layout-footer {
+    padding: 25px 0;
+  } 
+
+}

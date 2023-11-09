@@ -15,7 +15,7 @@ const HeaderApp = () => {
   return (
     <div className="container">
       <Row className="topBar">
-        <Col lg={12} className="topBar-left">
+        <Col  lg={12} className="topBar-left">
           <ul>
             <li>
               <a href="#">

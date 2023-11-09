@@ -35,15 +35,17 @@ const RecentProducts = () => {
   return (
     <div className="recentProducts">
       <h2>Recent Products</h2>
-      <Row gutter={[16, 16]}>
+      <Row gutter={[24, 24]}>
         {products.map((product) => {
           return (
-            <Col span={6} key={product.key}>
+            <Col xs={24} sm={12} lg={6} key={product.key}>
               <Card
                 hoverable
-                style={{
-                  width: 275,
-                }}
+                style={
+                  {
+                    // width: 275,
+                  }
+                }
                 cover={
                   <img
                     alt="example"

@@ -8,8 +8,8 @@ const { Meta } = Card;
 const Information = () => {
   return (
     <div className="InformationApp">
-      <Row gutter={[16, 16]}>
-        <Col span={12}>
+      <Row gutter={[24,24]}>
+        <Col xs={24} lg={12}>
           <Card
             className="cart1"
           >
@@ -20,7 +20,7 @@ const Information = () => {
             />
           </Card>
         </Col>
-        <Col span={12}>
+        <Col xs={24} lg={12}>
           <Card
             className="cart2"
           >

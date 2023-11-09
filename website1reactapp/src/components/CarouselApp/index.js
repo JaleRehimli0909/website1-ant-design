@@ -11,7 +11,7 @@ const CarouselApp = () => {
   return (
     <div className="carouselApp">
       <Row gutter={[24, 24]}>
-        <Col span={18}>
+        <Col xs={24} lg={18}>
           <Carousel autoplay>
             <div>
               <img alt="banner1" src={img1} />
@@ -24,7 +24,7 @@ const CarouselApp = () => {
             </div>
           </Carousel>
         </Col>
-        <Col span={6}>
+        <Col xs={24} lg={6}>
           <div className="carouselAppRight">
             <div className="carouselAppRight-holder">
               <div className="holderIcon">

@@ -36,7 +36,7 @@ const FooterAppTop = () => {
     <div className="FooterAppTop">
       <div className="container">
         <Row gutter={[24, 24]}>
-          <Col span={6}>
+          <Col xs={24} sm={12} md={6}>
             <h2>Featured</h2>
             <List
               itemLayout="horizontal"
@@ -54,7 +54,7 @@ const FooterAppTop = () => {
               )}
             />
           </Col>
-          <Col span={6}>
+          <Col  xs={24} sm={12} md={6}>
             <h2>Top rated</h2>
             <List
               itemLayout="horizontal"
@@ -72,7 +72,7 @@ const FooterAppTop = () => {
               )}
             />
           </Col>
-          <Col span={6}>
+          <Col xs={24} sm={12} md={6}>
             <h2>Tags</h2>
             <div className="tags">
               <Tag>Frozen</Tag>
@@ -83,7 +83,7 @@ const FooterAppTop = () => {
             </div>
           </Col>
 
-          <Col span={6}>
+          <Col xs={24} sm={12} md={6}>
             <h2>Recent posts</h2>
             <List
               dataSource={data}

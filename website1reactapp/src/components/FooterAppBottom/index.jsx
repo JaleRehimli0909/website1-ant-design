@@ -8,10 +8,10 @@ const FooterAppBottom = () => {
     <div className="FooterAppBottom">
       <div className="container">
         <Row className="FooterAppBottom-Items">
-          <Col span={12}>
+          <Col xs={24}  lg={12}>
             <p>©2022 Created by Grocery</p>
           </Col>
-          <Col span={12} className="FooterAppBottom-Items-right">
+          <Col xs={24} lg={12} className="FooterAppBottom-Items-right">
             <img src={paymentImg} alt="footerImg" />
           </Col>
         </Row>

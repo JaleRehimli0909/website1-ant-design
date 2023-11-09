@@ -41,12 +41,14 @@ const SaleProducts = () => {
       <Row gutter={[24, 24]}>
         {products.map((product) => {
           return (
-            <Col span={6} key={product.key}>
+            <Col xs={24} sm={12} lg={6} key={product.key}>
               <Card
                 hoverable
-                style={{
-                  width: 280,
-                }}
+                style={
+                  {
+                    // width: 280,
+                  }
+                }
                 cover={<img alt="example" src={product.image} />}
               >
                 <h3>{product.title}</h3>

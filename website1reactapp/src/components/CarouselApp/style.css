@@ -10,11 +10,9 @@
   border: 1px solid #ddd;
   background-color: #f9f9f9;
   display: flex;
-  justify-content: center;
   align-items: center;
   padding: 9px 15px;
   margin: 0px 0px 25px;
-  min-width: 280px;
   min-height: 118px;
 }
 .carouselAppRight .carouselAppRight-holder:last-child {

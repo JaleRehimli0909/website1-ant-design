@@ -123,7 +123,7 @@ const ShopApp = () => {
         <Row gutter={[16, 16]}>
           {products.map((product) => {
             return (
-              <Col span={6} key={product.key}>
+              <Col xs={24} sm={12} lg={6} key={product.key}>
                 <Card
                   hoverable
                   style={{
