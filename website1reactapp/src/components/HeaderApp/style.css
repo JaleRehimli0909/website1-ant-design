@@ -98,6 +98,23 @@
   margin: 0;
   font-size: 16px;
 }
+/* mobileVisible */
+.nav1 ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+.nav1 ul li {
+  margin-bottom: 10px;
+}
+.drawer .anticon svg {
+  color: #000;
+}
+/* mobileVisible */
+
 .header-list ul li {
   margin: 0 0 0 20px;
 }

@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
-import { Col, Row, Button } from "antd";
+import { Col, Row, Button, Drawer } from "antd";
+import { MenuOutlined } from "@ant-design/icons";
 import { NavLink } from "react-router-dom";
+
 import {
   MobileOutlined,
   UserOutlined,
@@ -12,10 +14,17 @@ import {
 } from "@ant-design/icons";
 
 const HeaderApp = () => {
+  const [open, setOpen] = useState(false);
+  const showDrawer = () => {
+    setOpen(true);
+  };
+  const onClose = () => {
+    setOpen(false);
+  };
   return (
     <div className="container">
       <Row className="topBar">
-        <Col  lg={12} className="topBar-left">
+        <Col lg={12} className="topBar-left">
           <ul>
             <li>
               <a href="#">
@@ -60,26 +69,63 @@ const HeaderApp = () => {
           Grocery
         </Col>
         <Col lg={12} className="header-list">
-          <nav>
+          <div className="mobileVisible">
+            <Button type="primary" onClick={showDrawer}>
+              <MenuOutlined />
+            </Button>
+            <Drawer
+              title="Grocery"
+              placement="right"
+              onClose={onClose}
+              open={open}
+              className="drawer"
+            >
+              <nav className="nav1">
+                <ul>
+                  <li>
+                    <NavLink onClick={onClose} to="/">
+                      Home
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink onClick={onClose} to="/about">
+                      About
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink onClick={onClose} to="/shop">
+                      Shop
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink onClick={onClose} to="/faq">
+                      FAQ
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink onClick={onClose} to="/contact">
+                      Contact
+                    </NavLink>
+                  </li>
+                </ul>
+              </nav>
+            </Drawer>
+          </div>
+          <nav className="mobileHidden">
             <ul>
               <li>
-                {/* <a href="#">Home</a>{" "} */}
                 <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                {/* <a href="#">About</a> */}
                 <NavLink to="/about">About</NavLink>
               </li>
               <li>
-                {/* <a href="#">Shop</a> */}
                 <NavLink to="/shop">Shop</NavLink>
               </li>
               <li>
-                {/* <a href="#">FAQ</a> */}
                 <NavLink to="/faq">FAQ</NavLink>
               </li>
               <li>
-                {/* <a href="#">Contact</a> */}
                 <NavLink to="/contact">Contact</NavLink>
               </li>
             </ul>
