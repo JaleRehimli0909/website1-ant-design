@@ -1,0 +1,10 @@
+.FaqApp {
+  padding: 40px 0;
+}
+.FaqApp h2 {
+  font-weight: 500;
+}
+
+.ant-collapse-header .ant-collapse-arrow svg {
+  color: #000;
+}
